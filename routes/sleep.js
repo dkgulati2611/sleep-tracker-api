@@ -3,14 +3,14 @@ const router = express.Router();
 import Sleep from '../models/Sleep.js'
 
 // GET /sleep/: Retrieve all sleep records
-router.get('/', async (req, res) => {
-    try {
-        const sleeps = await Sleep.find().sort({ timestamp: -1 });
-        res.json(sleeps);
-    } catch (error) {
-        res.status(400).json({ message: error.message });
-    }
-});
+// router.get('/', async (req, res) => {
+//     try {
+//         const sleeps = await Sleep.find().sort({ timestamp: -1 });
+//         res.json(sleeps);
+//     } catch (error) {
+//         res.status(400).json({ message: error.message });
+//     }
+// });
 
 // POST /sleep: Create a new sleep record
 router.post('/', async (req, res) => {
