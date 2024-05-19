@@ -115,6 +115,14 @@ curl -X DELETE http://localhost:3000/sleep/<recordId>
     </li>
 </ul>
 
+## Testing 
+
+Testing is done using Mocha. To run the tests, use the following command:
+
+```sh
+npm run test
+```
+
 ## Environment Variables
 <ul>
     <li>
