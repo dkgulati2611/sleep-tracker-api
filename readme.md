@@ -36,6 +36,9 @@ node index.js
 ```
 The API will be available at http://localhost:8000.
 
+The deployed version of the API is available at [Link](https://sleep-tracker-api-y2hz.onrender.com/)
+
+
 ## API Endpoints
 
 ##### 1. POST /sleep/
